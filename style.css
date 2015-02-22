@@ -32,37 +32,8 @@ margin: 0 auto;
 border: 0px dotted;
 }
 
-/*
-div.first{
-	font-family:Arial, sans-serif;
-	text-align:center;		/* Aligns text to horizontal center 
-	line-height:200px;		/* Aligns text to vertical center - only works with one row of text 
-	width:200px;
-	height:200px;
-	background-color: #4eb0e3;
-	top:50%;
-	left:50%;
-	margin:-200px 0 0 -200px;
-	border-radius:15px;
-	
+div.top{
+border: 1px dotted;
+border-color:white;
+height:118px;
 }
-
-/*
-div div{
-	opacity: 1.0;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-
-
-div div:hover{
-	opacity: 0.7;
-}
-
-a{
-	text-decoration:none;
-	color:#000;
-}
-
- */
