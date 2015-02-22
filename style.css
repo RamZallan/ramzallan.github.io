@@ -1,13 +1,42 @@
-div.all{
-	position:absolute;
-	top:50%;
-	left:50%;
+
+.roboto{
+font-family: 'Roboto', sans-serif;
 }
 
+body{
+font-family: 'Titillium Web', sans-serif;
+color:#3C6F8A;
+}
+
+
+
+a{
+text-decoration:none;
+
+  color:#75C3ED;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.25s;
+}
+
+a:hover {
+color:#50ADDF;
+text-decoration:underline;
+}
+
+div.main{
+width:750px;
+margin: 0 auto;
+border: 1px dotted;
+}
+
+/*
 div.first{
 	font-family:Arial, sans-serif;
-	text-align:center;		/* Aligns text to horizontal center */
-	line-height:200px;		/* Aligns text to vertical center - only works with one row of text */
+	text-align:center;		/* Aligns text to horizontal center 
+	line-height:200px;		/* Aligns text to vertical center - only works with one row of text 
 	width:200px;
 	height:200px;
 	background-color: #4eb0e3;
@@ -18,12 +47,14 @@ div.first{
 	
 }
 
+/*
 div div{
 	opacity: 1.0;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
 }
+
 
 div div:hover{
 	opacity: 0.7;
@@ -33,3 +64,5 @@ a{
 	text-decoration:none;
 	color:#000;
 }
+
+ */
