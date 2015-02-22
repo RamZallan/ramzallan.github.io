@@ -18,7 +18,7 @@ text-decoration:none;
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  transition:.25s;
+  transition:.5s;
 }
 
 a:hover {
@@ -35,5 +35,5 @@ border: 0px dotted;
 div.top{
 border: 1px dotted;
 border-color:white;
-height:118px;
+height:110px;
 }
