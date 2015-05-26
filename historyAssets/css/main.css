@@ -48,6 +48,69 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	/* Accordion */
+	
+	
+	
+	.accordion, .accordion * {
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box;
+}
+
+.accordion {
+	overflow:hidden;
+	box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+	border-radius:3px;
+	background:#f7f7f7;
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+	width:100%;
+	padding:15px;
+	display:inline-block;
+	border-bottom:1px solid #1a1a1a;
+	background:#262330;
+	transition:all linear 0.15s;
+	/* Type */
+	font-size:1.200em;
+	text-shadow:0px 1px 0px #1a1a1a;
+	color:#fff;
+}
+
+.accordion-section-title.active, .accordion-section-title:hover {
+	background:#4c4c4c;
+	/* Type */
+	text-decoration:none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+	font-size:0.75em;
+	padding:15px;
+	display:none;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 /* Box Model */
 
 	*, *:before, *:after {
@@ -747,6 +810,7 @@
 /* Basic */
 
 	body {
+		background-color:#262330; !important
 		background-image: url("images/overlay.png"), url("images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
@@ -1274,8 +1338,8 @@
 					#nav a span {
 						display: block;
 						position: absolute;
-						background: #222222;
-						color: #ffffff;
+						background: #ffffff;
+						color: #000000;
 						top: -2.75em;
 						font-size: 0.3em;
 						height: 2.25em;
