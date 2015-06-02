@@ -1,4 +1,4 @@
-ramzallan.github.io
+ramzallan.github.io / ramzallan.me
 ===================
 
-Personal test website
+Ram's website.
