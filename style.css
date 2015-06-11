@@ -4,9 +4,25 @@ font-family: 'Roboto', sans-serif;
 
 body{
 font-family: 'Titillium Web', sans-serif;
-color:#3C6F8A;
+color:#7C8387;
 }
 
+p{
+font-size:2.5em;
+line-height:1;
+}
+
+p.larger{
+font-size:6.3em;
+font-weight:900;
+line-height:0%;
+letter-spacing:0px;
+}
+
+p.smaller{
+font-size:1.5em;
+line-height:1;
+}
 a{
 text-decoration:none;
 
@@ -19,12 +35,12 @@ text-decoration:none;
 }
 
 a:hover {
-color:#50ADDF;
 text-decoration:underline;
 }
 
 div.main{
-width:750px;
+word-wrap: break-word;
+width:40em;
 margin: 0 auto;
 border: 0px dotted;
 }
