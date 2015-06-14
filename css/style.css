@@ -13,7 +13,7 @@ p {
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 8.5em;
     font-weight: 900;
     line-height: 0%;
     text-align:center;
@@ -58,4 +58,8 @@ div.top {
 
 .header{
     text-align:center; font-family: 'Roboto', sans-serif;;font-size:6em;line-height:0;font-weight:900;
+}   
+
+div.small{
+    height:175px;
 }
