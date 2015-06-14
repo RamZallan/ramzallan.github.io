@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>About - Template Site</title>
+    <meta name="description" content="An example site made by Ram Zallan, using the Skeleton Framework.">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <link rel="stylesheet" href="css/navigation.css">
+
+
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+    <!-- SLideJS ---------------------------------------------------- -->
+    <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+    <meta name="viewport" content="width=device-width">
+    <!-- End SlidesJS Required -->
+
+    <!-- CSS for slidesjs.com example -->
+    <link rel="stylesheet" href="css/example.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- End CSS for slidesjs.com example -->
+
+    <!-- SlidesJS Optional: If you'd like to use this design -->
+    <style>
+        body {
+            -webkit-font-smoothing: antialiased;
+            font: normal 15px/1.5 "Roboto", Arial, sans-serif;
+            color: #232525;
+            padding-top: 70px;
+        }
+        
+        #slides {
+            display: none
+        }
+        
+        
+        
+        #slides .slidesjs-navigation {
+            margin-top: 5px;
+        }
+        
+        a.slidesjs-next,
+        a.slidesjs-previous,
+        a.slidesjs-play,
+        a.slidesjs-stop {
+            background-image: url(img/btns-next-prev.png);
+            background-repeat: no-repeat;
+            display: block;
+            width: 12px;
+            height: 18px;
+            overflow: hidden;
+            text-indent: -9999px;
+            float: left;
+            margin-right: 5px;
+        }
+        
+        a.slidesjs-next {
+            margin-right: 10px;
+            background-position: -12px 0;
+        }
+        
+        a:hover.slidesjs-next {
+            background-position: -12px -18px;
+        }
+        
+        a.slidesjs-previous {
+            background-position: 0 0;
+        }
+        
+        a:hover.slidesjs-previous {
+            background-position: 0 -18px;
+        }
+        
+        a.slidesjs-play {
+            width: 15px;
+            background-position: -25px 0;
+        }
+        
+        a:hover.slidesjs-play {
+            background-position: -25px -18px;
+        }
+        
+        a.slidesjs-stop {
+            width: 18px;
+            background-position: -41px 0;
+        }
+        
+        a:hover.slidesjs-stop {
+            background-position: -41px -18px;
+        }
+        
+        .slidesjs-pagination {
+            margin: 7px 0 0;
+            float: right;
+            list-style: none;
+        }
+        
+        .slidesjs-pagination li {
+            float: left;
+            margin: 0 1px;
+        }
+        
+        .slidesjs-pagination li a {
+            display: block;
+            width: 13px;
+            height: 0;
+            padding-top: 13px;
+            background-image: url(img/pagination.png);
+            background-position: 0 0;
+            float: left;
+            overflow: hidden;
+        }
+        
+        .slidesjs-pagination li a.active,
+        .slidesjs-pagination li a:hover.active {
+            background-position: 0 -13px
+        }
+        
+        .slidesjs-pagination li a:hover {
+            background-position: 0 -26px
+        }
+        
+        #slides a:link,
+        #slides a:visited {
+            color: #333
+        }
+        
+        #slides a:hover,
+        #slides a:active {
+            color: #9e2020
+        }
+        
+        .navbar {
+            overflow: hidden
+        }
+    </style>
+    <!-- End SlidesJS Optional-->
+
+    <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+    <style>
+        #slides {
+            display: none
+        }
+        
+        .container {
+            margin: 0 auto
+        }
+        /* For tablets & smart phones */
+        
+        @media (max-width: 767px) {
+            body {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .container {
+                width: auto
+            }
+        }
+        /* For smartphones */
+        
+        @media (max-width: 480px) {
+            .container {
+                width: auto
+            }
+        }
+        /* For smaller displays like laptops */
+        
+        @media (min-width: 768px) and (max-width: 979px) {
+            .container {
+                width: 724px
+            }
+        }
+        /* For larger displays */
+        
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px
+            }
+        }
+    </style>
+
+
+
+
+
+    <!-- SlidesJS -------------------------------------------- -->
+
+
+
+
+</head>
+
+<body>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row header">
+
+            <div class='four columns'>
+                <h5 style="font-family:'Pacifico'; line-height:0;">Company Name</h5>
+
+            </div>
+            <div id='cssmenu' class='eight columns'>
+                <ul>
+                    <li class='active'><a href='#'><span>Home</span></a>
+                    </li>
+                    <li><a href='#'><span>About</span></a>
+                    </li>
+                    <li><a href='#'><span>Services</span></a>
+                    </li>
+                    <li class='last'><a href='#'><span>Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row margin">
+
+            <div id="slides">
+                <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+                <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+                <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+                <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+            </div>
+        </div>
+
+        <div class="row margin">
+            <div class="four columns icons">
+                <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-reorder fa-stack-1x" style="font-size:30px;"></i>
+                </span>
+                <h5>Responsive</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et tortor condimentum, aliquet odio vulputate, bibendum ante. Suspendisse rutrum nibh et eros feugiat consequat. Integer tortor tortor, bibendum vitae libero quis, tempor auctor sem. Quisque quis elit mi. </p>
+            </div>
+            <div class="four columns icons">
+                <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-server fa-stack-1x" style="font-size:30px;"></i>
+                </span>
+                <h5>Modern</h5>
+                <p>Curabitur dictum, tellus sed viverra maximus, erat risus aliquam nibh, sit amet scelerisque dui tortor eu lacus. Nullam ac lectus arcu. Donec faucibus lobortis erat, at tristique ante elementum eu. Maecenas gravida ultrices aliquam.</p>
+            </div>
+            <div class="four columns icons">
+                <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-database fa-stack-1x" style="font-size:30px;"></i>
+                </span>
+                <h5>Sleek</h5>
+                <p>Fusce id rutrum quam, ut luctus lectus. Sed dignissim pharetra elit. Quisque in sodales turpis. Fusce ac ornare eros. Mauris lorem purus, fermentum vitae sollicitudin at, efficitur quis urna. Cras non commodo velit. Aenean egestas malesuada purus ac aliquam.</p>
+            </div>
+        </div>
+
+
+        <div class="row footer">
+            <br>
+            <p>&copy <a href="http://ramzallan.me">Ram Zallan</a> 2015</p>
+        </div>
+
+
+
+    </div>
+    <!-- End Container holding entire site -->
+
+
+
+
+    <!-- SlidesJS Required: Link to jQuery -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- End SlidesJS Required -->
+
+    <!-- SlidesJS Required: Link to jquery.slides.js -->
+    <script src="js/jquery.slides.min.js"></script>
+    <!-- End SlidesJS Required -->
+
+    <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+    <script>
+        $(function () {
+            $('#slides').slidesjs({
+                width: 940,
+                height: 528,
+                navigation: true,
+                play: {
+                    active: true,
+                    auto: true,
+                    interval: 4000,
+                    swap: true
+                }
+                
+            });
+        });
+    </script>
+    <!-- End SlidesJS Required -->
+</body>
+
+</html>
