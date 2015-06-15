@@ -23,6 +23,24 @@
 - Media Queries
 */
 
+.icons img{
+    width:87px;
+    height:101px;
+}
+
+.big{
+    font-size:1.5em;
+    font-weight:700;
+}
+
+.bigger{
+    font-size: 3.0rem;
+    line-height: 1.2;
+    letter-spacing: -.1rem;
+    font-weight:700;
+}
+
+
 .footer {
     border-top: 5px solid;
     margin-top: 3%;
