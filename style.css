@@ -1,32 +1,66 @@
-.roboto {
-    font-family: 'Roboto', sans-serif;
-}
-
 body {
-    font-family: 'Titillium Web', sans-serif;
-    color: #7C8387;
+    background:#F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    color:#333333;
 }
 
 p {
-    font-size: 2.5em;
+    font-size: 1.3em;
     line-height: 1;
+    font-weight:500;
+}
+
+.pictures img{
+    width:95%;
+    display:block;
+    margin:auto;
+}
+
+/*
+div{
+    border:1px dotted #ffffff;
+}
+*/
+
+.sites{
+    line-height:1;
+}
+
+.title{
+    font-size:1.7em;
+    font-weight:900;
+    line-height:0;
+}
+
+.thick{
+    font-weight:bolder;
+    font-size:8em;
 }
 
 h1 {
     font-size: 8em;
-    font-weight: 900;
+    font-weight: 100;
     line-height: 0%;
     text-align:center;
     color: #75C3ED;
-    line-height:0.7;
+    line-height:2;
 }
 
 h2 {
-    font-size: 1.95em;
-    line-height: 1;
+    font-size: 1.9em;
+    line-height: 1.5;
     text-align:center;
     line-height:1;
     font-weight:700;
+    color:#444;
+}
+
+h3{
+    font-size:2.5em;
+    line-height:2;
+    text-align:center;
+    color:#777;
+    font-weight:100;
 }
 
 a {
@@ -57,5 +91,8 @@ div.top {
 }
 
 .header{
-    text-align:center; font-family: 'Roboto', sans-serif;;font-size:6em;line-height:0;font-weight:900;
+    text-align:center; font-family: 'Roboto', sans-serif;
+    font-size:6em;
+    line-height:0;
+    font-weight:900;
 }

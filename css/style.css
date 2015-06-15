@@ -1,32 +1,11 @@
-.roboto {
-    font-family: 'Roboto', sans-serif;
-}
-
 body {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #7C8387;
 }
 
 p {
     font-size: 2.5em;
     line-height: 1;
-}
-
-h1 {
-    font-size: 8.5em;
-    font-weight: 900;
-    line-height: 0%;
-    text-align:center;
-    color: #75C3ED;
-    line-height:0.7;
-}
-
-h2 {
-    font-size: 1.95em;
-    line-height: 1;
-    text-align:center;
-    line-height:1;
-    font-weight:700;
 }
 
 a {
@@ -57,7 +36,10 @@ div.top {
 }
 
 .header{
-    text-align:center; font-family: 'Roboto', sans-serif;;font-size:6em;line-height:0;font-weight:900;
+    text-align:center; font-family: 'Roboto', sans-serif;
+    font-size:6em;
+    line-height:0;
+    font-weight:900;
 }   
 
 div.small{
