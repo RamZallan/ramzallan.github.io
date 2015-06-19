@@ -41,14 +41,6 @@
 }
 
 
-.footer {
-    border-top: 5px solid;
-    margin-top: 3%;
-    text-align: center;
-    font-size: 1em;
-    ;
-}
-
 .margin {
     margin-top: 1%;
 }
@@ -232,11 +224,20 @@ body {
     
     line-height: 1.6;
     font-weight: 500;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #888;
+    background:#f5f5f5;
 }
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 
 h1,
 h2,
@@ -619,3 +620,64 @@ there.
 /* Larger than Desktop HD */
 
 @media (min-width: 1200px) {}
+.topDiv {
+    background-image:url(https://unsplash.imgix.net/photo-1430132594682-16e1185b17c5?fit=crop&fm=jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+    
+
+}
+.topDiv h1{
+    text-align:center;
+    color:#EEE;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    line-height:0.8;
+    
+}
+
+.topDiv p{
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    padding:50px;
+    color:#BBB;
+    text-align:center;
+    font-size:1.3em;
+    line-height:0.5;
+    font-weight:700;
+}
+
+.navigation {
+    position: fixed;
+    top: 0px;
+    background:rgba(0,0,0,0.5);
+    width:100%;
+    color:white;
+    font-size:1.5em;
+    line-height:2;
+    font-weight:300;
+    text-align:center;
+    letter-spacing:1px;
+}
+.navigation a{
+    text-decoration:none;
+    color:white;
+}
+
+.navigation a:hover{
+    text-decoration:underline;
+}
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li{
+    display: inline;
+    padding-left:10px;
+}

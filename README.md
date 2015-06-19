@@ -1,4 +1,3 @@
 ramzallan.github.io / ramzallan.me
 ===================
-
-Ram's website.
+Ram Zallan's website.

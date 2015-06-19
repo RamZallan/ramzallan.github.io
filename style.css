@@ -11,9 +11,7 @@ p {
 }
 
 .pictures img{
-    width:95%;
-    display:block;
-    margin:auto;
+align-content:right;
 }
 
 /*
@@ -21,9 +19,18 @@ div{
     border:1px dotted #ffffff;
 }
 */
-
+.bottom{
+    border-top:1px solid black;
+    margin-top:5%;
+    padding-top:10px;
+    text-align:center;
+    font-size:0.8em;
+    font-weight:500;
+}
 .sites{
     line-height:1;
+    font-size:2em;
+    font-weight:300;
 }
 
 .container{
@@ -50,7 +57,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.9em;
+    font-size: 1.64em;
     line-height: 1.5;
     text-align:center;
     line-height:1;
@@ -99,3 +106,4 @@ div.top {
     line-height:0;
     font-weight:900;
 }
+
