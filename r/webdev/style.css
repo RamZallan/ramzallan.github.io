@@ -149,3 +149,26 @@ input[type="submit"] {
     font-size: 1.1em;
     background-color: #8BBEDE;
 }
+
+/******
+GLEN FIXES
+******/
+
+#glenborder {
+    border: 2px solid gray;
+    display: block;
+    width: 450px;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+#glenborder h2 {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.signup-foot {
+    position: absolute;
+    bottom: -180px;
+}
