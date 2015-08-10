@@ -1,0 +1,99 @@
+/* Variables */
+
+$background-color:#222222;
+$font-color:#00ff00;
+$border-color:#111111;
+$green:#27ae60;
+$yellow:#f1c40f;
+$red:#e74c3c;
+/* Styles */
+
+* {
+    transition: all 0.3s;
+}
+
+body,
+html {
+    background: $background-color;
+    color: $font-color;
+    font-family: "Droid Sans Mono", monospace;
+}
+
+a {
+    color: $font-color;
+    text-decoration: none;
+    border-bottom: 3px solid $font-color;
+    padding-bottom: 3px;
+    &:hover {
+        color: darken($font-color, 10%);
+        border-color: darken($font-color, 10%);
+    }
+}
+
+.container {
+    margin-top: 20vh;
+    max-width: 500px;
+}
+
+.window {
+    border: 1px solid $border-color;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom:30px;
+    font-size: 20px;
+}
+
+.window header {
+    border-radius: 4px 4px 0px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 32px;
+    width: 100%;
+    background-color: #333;
+}
+
+.window header ul {
+    float: left;
+    height: 32px;
+    margin: 0 10px;
+    padding-left: 5px;
+}
+
+.window header ul li {
+    margin: 10px 1px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.window header ul li.close {
+    background-color: $red;
+    &:hover {
+        background-color: darken($red, 10%);
+    }
+}
+
+.window header ul li.minimize {
+    background-color: $yellow;
+    &:hover {
+        background-color: darken($yellow, 10%);
+    }
+}
+
+.window header ul li.maximize {
+    background-color: $green;
+    &:hover {
+        background-color: darken($green, 10%);
+    }
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
