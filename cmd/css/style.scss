@@ -1,8 +1,10 @@
 /* Variables */
 
-$background-color:#222222;
+$background-color:#222;
+$window-color:#282828;
+$header-color:#333;
 $font-color:#00ff00;
-$border-color:#111111;
+$border-color:#111;
 $green:#27ae60;
 $yellow:#f1c40f;
 $red:#e74c3c;
@@ -10,6 +12,10 @@ $red:#e74c3c;
 
 * {
     transition: all 0.3s;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 body,
@@ -21,12 +27,13 @@ html {
 
 a {
     color: $font-color;
+    cursor: pointer;
     text-decoration: none;
-    border-bottom: 3px solid $font-color;
+    border-bottom: 2px solid $font-color;
     padding-bottom: 3px;
     &:hover {
-        color: darken($font-color, 10%);
-        border-color: darken($font-color, 10%);
+        color: darken($font-color, 15%);
+        border-color: darken($font-color, 15%);
     }
 }
 
@@ -36,37 +43,37 @@ a {
 }
 
 .window {
+    background: $window-color;
     border: 1px solid $border-color;
+    border-radius: 5px;
     padding: 20px;
     padding-top: 40px;
-    padding-bottom:30px;
+    padding-bottom: 20px;
     font-size: 20px;
-}
-
-.window header {
-    border-radius: 4px 4px 0px 0px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 32px;
-    width: 100%;
-    background-color: #333;
-}
-
-.window header ul {
-    float: left;
-    height: 32px;
-    margin: 0 10px;
-    padding-left: 5px;
-}
-
-.window header ul li {
-    margin: 10px 1px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    display: inline-block;
-    cursor: pointer;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
+    & header {
+        border-radius: 4px 4px 0px 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 32px;
+        width: 100%;
+        background-color: $header-color;
+    }
+    & header ul {
+        float: left;
+        height: 32px;
+        margin: 0 10px;
+        padding-left: 5px;
+    }
+    & header ul li {
+        margin: 10px 1px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+    }
 }
 
 .window header ul li.close {
@@ -90,10 +97,83 @@ a {
     }
 }
 
-.left {
-    float: left;
+.links {
+    font-size: 16px;
+    text-align: center;
 }
 
-.right {
-    float: right;
+.active {
+    border-top: 2px solid $font-color;
+}
+
+.cursor:after {
+    content: "_";
+    font-weight: 900;
+    opacity: 0;
+    animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.invisible {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.more {
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px;
+    line-height: 75%;
+    & p {
+        font-size: 12px;
+        line-height: 150%;
+    }
+    & a {
+        border: none;
+        font-weight: 900;
+    }
+    & i {
+        font-size: 12px;
+    }
+}
+
+.skills {
+    text-align: left;
+    & li {
+        padding-bottom: 10px;
+    }
+}
+
+.work {
+    text-align: right;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 100%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid $font-color;
 }
