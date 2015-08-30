@@ -25,12 +25,14 @@ html {
     font-family: "Droid Sans Mono", monospace;
 }
 
+
 a {
     color: $font-color;
     cursor: pointer;
     text-decoration: none;
     border-bottom: 2px solid $font-color;
     padding-bottom: 3px;
+    line-height: 200%;
     &:hover {
         color: darken($font-color, 15%);
         border-color: darken($font-color, 15%);
@@ -38,10 +40,14 @@ a {
 }
 
 .container {
-    margin-top: 20vh;
+    margin-top: 10vh;
     max-width: 500px;
 }
-
+@media (max-width: 600px) {
+  .container { 
+    margin-top:30px;; 
+  }
+}
 .window {
     background: $window-color;
     border: 1px solid $border-color;
@@ -176,4 +182,8 @@ a {
     line-height: 100%;
     padding-bottom: 5px;
     border-bottom: 2px solid $font-color;
+}
+
+.contact {
+    text-align: center;
 }
