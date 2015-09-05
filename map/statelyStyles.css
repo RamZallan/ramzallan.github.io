@@ -1,0 +1,189 @@
+/* line 10, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+* {
+  transition: 0.4s all; }
+
+/* line 14, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px; }
+
+/* line 19, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+h1 {
+  font-size: 60px;
+  font-weight: 200;
+  color: #4eb0e3;
+  text-align: center; }
+
+/* line 26, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #4eb0e3; }
+
+/* line 32, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+h3 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #4eb0e3;
+  text-align: center; }
+
+/* line 39, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+a {
+  text-decoration: none;
+  border-bottom: 2px solid #4eb0e3; }
+  /* line 42, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  a:hover {
+    color: #155d83;
+    border-color: #155d83; }
+
+/* line 48, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+.leg {
+  height: 18px;
+  width: 18px; }
+
+/* line 53, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+ul.stately {
+  width: 900px;
+  /*width and font size must match*/
+  font-size: 900px;
+  color: #4eb0e3;
+  background: transparent; }
+
+/* line 62, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+.legend {
+  border-top: 1px solid #4eb0e3;
+  border-bottom: 1px solid #4eb0e3;
+  border-radius: 20px;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto; }
+  /* line 70, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .legend h2 {
+    font-size: 16px;
+    font-weight: 300; }
+  /* line 74, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .legend h3 {
+    font-size: 20px;
+    font-weight: 500; }
+
+/* line 80, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+#pnwSquare {
+  height: 15px;
+  width: 15px;
+  background: #f39c12;
+  border-radius: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+/* line 90, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+#michiganSquare {
+  height: 15px;
+  width: 15px;
+  background: #34495e;
+  border-radius: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+/* line 100, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+#indianaSquare {
+  height: 15px;
+  width: 15px;
+  background: #7f8c8d;
+  border-radius: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+/* line 110, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+#georgiaSquare {
+  height: 15px;
+  width: 15px;
+  background: #e74c3c;
+  border-radius: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+/* line 120, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+#ncSquare {
+  height: 15px;
+  width: 15px;
+  background: #2ecc71;
+  border-radius: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+/* line 130, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+#chesapeakeSquare {
+  height: 15px;
+  width: 15px;
+  background: #9b59b6;
+  border-radius: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+/* line 140, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+#midAtlanticSquare {
+  height: 15px;
+  width: 15px;
+  background: #F0BB42;
+  border-radius: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+/* line 150, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+#neSquare {
+  height: 15px;
+  width: 15px;
+  background: #1D8251;
+  border-radius: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+/* line 160, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+.stately li {
+  /* District color codes */ }
+  /* line 163, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .stately li#ga {
+    color: #e74c3c; }
+  /* line 167, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .stately li#nc {
+    color: #2ecc71; }
+  /* line 173, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .stately li#dc,
+  .stately li#va,
+  .stately li#md {
+    color: #9b59b6; }
+  /* line 179, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .stately li#or,
+  .stately li#wa,
+  .stately li#ak {
+    color: #f39c12; }
+  /* line 183, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .stately li#mi {
+    color: #34495e; }
+  /* line 192, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .stately li#ma,
+  .stately li#vt,
+  .stately li#nh,
+  .stately li#me,
+  .stately li#ct,
+  .stately li#ri {
+    color: #1D8251; }
+  /* line 198, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .stately li#nj,
+  .stately li#de,
+  .stately li#pa {
+    color: #F0BB42; }
+  /* line 202, C:/Users/ramz_000/Desktop/Map/statelyStyles.scss */
+  .stately li#in {
+    color: #7f8c8d; }
+
+/*# sourceMappingURL=statelyStyles.css.map */

@@ -24,7 +24,10 @@ html {
     color: $font-color;
     font-family: "Droid Sans Mono", monospace;
 }
-
+.window h1{
+    font-size:20px;
+    font-weight:500;
+}
 
 a {
     color: $font-color;
