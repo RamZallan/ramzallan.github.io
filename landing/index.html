@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Landing Page Example</title>
+    <meta name="description" content="An example landing page">
+    <meta name="author" content="Ram Zallan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+    <div class="triangle"></div>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1>Your App</h1>
+                <p>A hypothetical up app that does something, presumably.</p>
+            </div>
+        </div>
+        <div class="row newsletter">
+            <div class="twelve columns">
+                <form>
+                    <p>Sign up for our newsletter, or else.</p>
+                    <input class="test" type="email" placeholder="you@example.com">
+                    <span class="test"><a href="#" class="button">Sign Me Up!</a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="twelve columns footer">
+                <p>Site by <a href="http://ramzallan.me">Ram Zallan</a>.</p>
+            </div>
+
+    <img class="iphone" src="http://pdadb.net/img/gallery/big/apple_iphone_6_plus_right.png">
+    <img class="s6" src="http://i.imgur.com/EZMGlQm.png">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+        $(".button").click(function () {
+            $(".button").addClass("active");
+            $(".button").html("Signed Up!");
+
+        });
+    </script>
+
+</body>
+
+</html>

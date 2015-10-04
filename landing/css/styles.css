@@ -1,0 +1,166 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900';
+* {
+  transition: 0.3s all; }
+
+html {
+  width: 100%;
+  height: 100%;
+  background: #005b9f; }
+
+body {
+  margin-top: 150px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: #005b9f;
+  color: #9fd6ff;
+  overflow: hidden; }
+
+@media (max-width: 500px) {
+  body {
+    margin-top: 50px; } }
+
+h1 {
+  font-weight: 100;
+  font-size: 90px;
+  text-align: center;
+  line-height: 75%; }
+
+p {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700; }
+
+.row .column,
+.row .columns {
+  padding: 20px; }
+
+a {
+  color: #6cc0ff;
+  text-decoration: none;
+  border-bottom: 2px solid #6cc0ff; }
+  a:hover {
+    color: #39abff;
+    border-color: #39abff; }
+  a:active {
+    color: #20a0ff;
+    border-color: #20a0ff; }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 100vh 100vw;
+  border-color: transparent transparent rgba(0, 0, 0, 0.05) transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+input[type="email"] {
+  width: 250px;
+  color: #9fd6ff;
+  margin: 2px;
+  background: none;
+  border: 1px solid #9fd6ff;
+  padding: 10px;
+  border-radius: 0; }
+  input[type="email"]:hover {
+    border-color: #39abff; }
+  input[type="email"]:focus {
+    border-color: #0079d2;
+    outline: none; }
+
+.button {
+  color: #9fd6ff;
+  margin: 2px;
+  background: none;
+  border: 1px solid #9fd6ff;
+  padding: 10px 20px;
+  border-radius: 0;
+  cursor: pointer;
+  text-decoration: none; }
+  .button:hover {
+    color: #9fd6ff;
+    border-color: #39abff; }
+  .button:focus {
+    border-color: #0079d2;
+    outline: none; }
+
+.newsletter {
+  margin-top: 50px;
+  text-align: center; }
+  .newsletter p {
+    font-weight: 300;
+    line-height: 0;
+    font-size: 20px; }
+
+::-webkit-input-placeholder {
+  color: #9fd6ff; }
+
+:-moz-placeholder {
+  color: #9fd6ff; }
+
+::-moz-placeholder {
+  color: #9fd6ff; }
+
+:-ms-input-placeholder {
+  color: #9fd6ff; }
+
+.iphone {
+  width: 150px;
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  opacity: 1;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none; }
+
+.s6 {
+  width: 150px;
+  position: absolute;
+  top: 240px;
+  right: -40px;
+  opacity: 1;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none; }
+
+@media (max-width: 700px) {
+  .iphone,
+  .s6 {
+    opacity: 0; } }
+
+@media (min-width: 1200px) {
+  .iphone {
+    left: 200px; }
+  .s6 {
+    right: 200px; } }
+
+@media (max-height: 800px) {
+  .iphone {
+    top: 20px; }
+  .s6 {
+    top: 100px; } }
+
+@media (max-height: 550px) {
+  .iphone,
+  .s6 {
+    opacity: 0; } }
+
+.active {
+  color: #00E06E;
+  border-color: #00E06E; }
+  .active:hover {
+    color: #00E06E;
+    border-color: #00E06E; }
+  .active:active {
+    color: #00E06E;
+    border-color: #00E06E; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px; }
+  .footer p {
+    font-weight: 400; }
