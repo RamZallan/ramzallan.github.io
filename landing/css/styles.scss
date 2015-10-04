@@ -114,7 +114,6 @@ input[type="email"] {
     text-align: center;
     & p {
         font-weight: 300;
-        line-height: 0;
         font-size: 20px;
     }
 }
@@ -163,6 +162,23 @@ input[type="email"] {
     .iphone,
     .s6 {
         opacity: 0;
+    }
+    input[type="email"] {
+        margin-bottom: 30px;
+        width: auto;
+    }
+    .footer {
+        opacity: 0;
+        height: 0;
+    }
+    .newsletter p {
+        text-wrap: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .newsletter p {
+       font-size: 16px;
     }
 }
 
