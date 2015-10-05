@@ -32,7 +32,7 @@ h1 {
     font-weight: 100;
     font-size: 90px;
     text-align: center;
-    line-height: 75%;
+    line-height: 100%;
 }
 
 p {
@@ -165,7 +165,11 @@ input[type="email"] {
     }
     input[type="email"] {
         margin-bottom: 30px;
-        width: auto;
+        width: 100%;
+        margin: 10px 0 30px 0;
+    }
+    .button {
+        
     }
     .footer {
         opacity: 0;

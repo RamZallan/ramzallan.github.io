@@ -29,7 +29,7 @@ h1 {
   font-weight: 100;
   font-size: 90px;
   text-align: center;
-  line-height: 75%; }
+  line-height: 100%; }
 
 /* line 38, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
 p {
@@ -158,61 +158,62 @@ input[type="email"] {
   /* line 166, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   input[type="email"] {
     margin-bottom: 30px;
-    width: auto; }
-  /* line 170, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+    width: 100%;
+    margin: 10px 0 30px 0; }
+  /* line 174, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .footer {
     opacity: 0;
     height: 0; }
-  /* line 174, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 178, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .newsletter p {
     text-wrap: none; } }
 
 @media (max-width: 500px) {
-  /* line 180, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 184, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .newsletter p {
     font-size: 16px; } }
 
 @media (min-width: 1200px) {
-  /* line 186, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 190, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .iphone {
     left: 200px; }
-  /* line 189, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 193, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .s6 {
     right: 200px; } }
 
 @media (max-height: 800px) {
-  /* line 195, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 199, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .iphone {
     top: 20px; }
-  /* line 198, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 202, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .s6 {
     top: 100px; } }
 
 @media (max-height: 550px) {
-  /* line 205, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 209, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .iphone,
   .s6 {
     opacity: 0; } }
 
-/* line 210, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+/* line 214, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
 .active {
   color: #00E06E;
   border-color: #00E06E; }
-  /* line 213, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 217, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .active:hover {
     color: #00E06E;
     border-color: #00E06E; }
-  /* line 217, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 221, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .active:active {
     color: #00E06E;
     border-color: #00E06E; }
 
-/* line 223, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+/* line 227, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
 .footer {
   position: absolute;
   bottom: 0;
   font-size: 12px; }
-  /* line 227, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
+  /* line 231, C:/Users/ramz_000/Desktop/Landing Page/css/styles.scss */
   .footer p {
     font-weight: 400; }
 
