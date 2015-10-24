@@ -1,0 +1,125 @@
+/* line 2, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+* {
+  transition: 0.3s all; }
+
+/* line 6, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+body {
+  margin-top: 20px;
+  background: #F5F5F5;
+  font-family: "Roboto Slab", serif; }
+
+/* line 12, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+.container {
+  max-width: 1200px; }
+
+/* line 16, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+a {
+  text-decoration: none;
+  transition: 0.3s all;
+  font-weight: 600;
+  color: #22C356; }
+  /* line 21, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  a:hover {
+    color: #136c30; }
+
+/* line 26, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+.row {
+  margin-bottom: 5px; }
+
+/* line 30, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+.header {
+  margin-bottom: 10px; }
+  /* line 34, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .header h1 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 2px;
+    border-bottom: 4px solid #22C356;
+    margin: 10px 0; }
+
+/* line 43, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+.left {
+  text-align: left;
+  padding: 0 10px; }
+
+/* line 48, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+.right {
+  text-align: right;
+  padding: 0 10px; }
+
+/* line 53, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+.logo {
+  text-align: center;
+  height: 178px; }
+  /* line 56, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .logo img {
+    height: 100%; }
+
+/* line 62, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+.navigation .nav {
+  display: inline;
+  list-style-type: none;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  border-bottom: 4px solid #22C356;
+  margin-bottom: 10px; }
+  /* line 70, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .navigation .nav:hover {
+    border-color: #136c30; }
+  /* line 73, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .navigation .nav a {
+    display: block; }
+
+@media (max-width: 500px) {
+  /* line 80, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .nav {
+    border-bottom: none;
+    border: 3px solid #22C356; } }
+
+/* line 86, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+.info {
+  text-align: center;
+  background: #22C356;
+  padding: 10px 20px;
+  color: white; }
+  /* line 91, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .info h2 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 2px;
+    border-bottom: 2px solid white; }
+  /* line 97, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .info h3 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1; }
+
+/* line 104, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+.footer {
+  height: 100px;
+  text-align: center;
+  font-size: 15px;
+  border-bottom: 4px solid #22C356;
+  border-top: 4px solid #22C356;
+  margin-top: 20px; }
+  /* line 111, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .footer .columns {
+    height: 50%; }
+  /* line 114, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .footer .social {
+    padding-top: 10px; }
+    /* line 116, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+    .footer .social i {
+      font-size: 30px;
+      color: #1a9843;
+      transition: 0.3s all;
+      padding: 5px; }
+      /* line 121, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+      .footer .social i:hover {
+        color: #22C356; }
+  /* line 126, C:/Users/ramz_000/Desktop/Mom/css/styles.scss */
+  .footer .bottom {
+    padding-top: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
