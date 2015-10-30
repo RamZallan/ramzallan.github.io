@@ -1,0 +1,96 @@
+$color: #4eb0e3;
+
+* {
+    transition: 0.3s all;
+}
+
+[class*='bit-'] {
+    padding: 3px 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0 50px;
+}
+
+html {
+    margin: 0;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    border-bottom: 2px solid $color;
+    padding: 2px 0;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.top {
+    border-bottom: 4px solid $color;
+}
+
+.info {
+    text-align: right;
+    & a {
+        text-decoration: none;
+        color: #000;
+    }
+    ul {
+        padding-top: 5px;
+        list-style-type: none;
+        & li {
+            line-height: 150%;
+        }
+    }
+    & .fa {
+        margin-right: 10px;
+        color: $color;
+    }
+}
+
+.fa {
+    margin-right: 10px;
+    color: #4eb0e3;
+}
+
+.container {
+    max-width: none;
+}
+
+.references {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.bit-20 {
+    font-size: 12px;
+    padding-top: 8px;
+    strong {
+        font-weight: 700;
+    }
+}
+
+.bit-80 {
+    & h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    & ul {
+        list-style-type: none;
+        font-size: 12px;
+        margin: 2px 0 2px 10px;
+        line-height: 100%;
+        & li:not(:last-child) {
+            padding-bottom: 5px;
+        }
+    }
+}

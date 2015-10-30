@@ -1,0 +1,184 @@
+/* Variables */
+
+$blue: #4eb0e3;
+$black: #222;
+$georgia:#e74c3c;
+$northCarolina:#2ecc71;
+$chesapeake:#9b59b6;
+$PNW:#f39c12;
+$michigan:#34495e;
+$newEngland:#1D8251;
+$midAtlantic:#F0BB42;
+$indiana:#7f8c8d;
+
+/* Styles */
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: $blue;
+}
+
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    color: $blue;
+    text-align: center;
+}
+
+#header {
+    margin-top: 50px;
+}
+
+#legend {
+    border-top: 2px solid $blue;
+    border-bottom: 2px solid $blue;
+    border-radius: 20px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    & h2 {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 100%;
+    }
+    & .district {
+        font-weight: 400;
+    }
+    & #pnwSquare:before {
+        content: '';
+        height: 15px;
+        width: 15px;
+        background: $PNW;
+        border-radius: 20%;
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    & #michiganSquare:before {
+        content: '';
+        height: 15px;
+        width: 15px;
+        background: $michigan;
+        border-radius: 20%;
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    & #indianaSquare:before {
+        content: '';
+        height: 15px;
+        width: 15px;
+        background: $indiana;
+        border-radius: 20%;
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    & #georgiaSquare:before {
+        content: '';
+        height: 15px;
+        width: 15px;
+        background: $georgia;
+        border-radius: 20%;
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    & #ncSquare:before {
+        content: '';
+        height: 15px;
+        width: 15px;
+        background: $northCarolina;
+        border-radius: 20%;
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    & #chesapeakeSquare:before {
+        content: '';
+        height: 15px;
+        width: 15px;
+        background: $chesapeake;
+        border-radius: 20%;
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    & #midAtlanticSquare:before {
+        content: '';
+        height: 15px;
+        width: 15px;
+        background: $midAtlantic;
+        border-radius: 20%;
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    & #neSquare:before {
+        content: '';
+        height: 15px;
+        width: 15px;
+        background: $newEngland;
+        border-radius: 20%;
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+}
+
+#map {
+    width: 75vw;
+    height: 75vh;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+@media (min-width: 1200px) {
+    #map {
+        width: 60vw;
+        height: 60vh;
+    }
+}
+
+@media (min-height: 700px) {
+    #map {
+        padding-top: 0;
+    }
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #222;
+    font-weight: 500;
+    & a {
+        transition: 0.3s all;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        &:hover {
+            color: darken($blue, 40%);
+        }
+    }
+}
+
+.popup {
+    position: absolute;
+    max-width: 400px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    color: white;
+    & .dialog {
+        padding: 10px;
+    }
+}
