@@ -4,7 +4,7 @@
 
 /* line 7, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 [class*='bit-'] {
-  padding: 3px 0; }
+  padding: 5px 0; }
 
 /* line 11, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 body {
@@ -28,68 +28,92 @@ h2 {
   padding: 2px 0; }
 
 /* line 32, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500; }
+  /* line 36, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+  a:hover {
+    color: #4eb0e3; }
+
+/* line 41, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 strong {
   font-weight: 500; }
 
-/* line 36, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+/* line 45, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 .top {
   border-bottom: 4px solid #4eb0e3; }
 
-/* line 40, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+/* line 49, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 .info {
   text-align: right; }
-  /* line 42, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
-  .info a {
-    text-decoration: none;
-    color: #000; }
-  /* line 46, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+  /* line 51, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
   .info ul {
     padding-top: 5px;
     list-style-type: none; }
-    /* line 49, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+    /* line 54, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
     .info ul li {
       line-height: 150%; }
-  /* line 53, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+  /* line 58, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
   .info .fa {
     margin-right: 10px;
     color: #4eb0e3; }
 
-/* line 59, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+/* line 64, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 .fa {
   margin-right: 10px;
   color: #4eb0e3; }
 
-/* line 64, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+/* line 69, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 .container {
   max-width: none; }
 
-/* line 68, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+/* line 73, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 .references {
   text-align: center;
   font-size: 12px;
-  margin-top: 15px; }
+  margin-top: 15px;
+  line-height: 150%; }
 
-/* line 74, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+/* line 80, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 .bit-20 {
   font-size: 12px;
   padding-top: 8px; }
-  /* line 77, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+  /* line 83, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
   .bit-20 strong {
     font-weight: 700; }
 
-/* line 83, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+/* line 89, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 .bit-80 h3 {
   font-size: 16px;
   font-weight: 500; }
 
-/* line 87, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+/* line 93, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
 .bit-80 ul {
   list-style-type: none;
   font-size: 12px;
   margin: 2px 0 2px 10px;
   line-height: 100%; }
-  /* line 92, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+  /* line 98, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
   .bit-80 ul li:not(:last-child) {
     padding-bottom: 5px; }
+
+/* line 105, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+.skills li {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 10px; }
+
+/* line 112, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+.download {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9001;
+  font-size: 35px;
+  opacity: 0.3; }
+  /* line 119, C:/Users/ramz_000/Desktop/Resume/css/styles.scss */
+  .download:hover {
+    opacity: 1; }
 
 /*# sourceMappingURL=styles.css.map */

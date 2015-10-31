@@ -5,7 +5,7 @@ $color: #4eb0e3;
 }
 
 [class*='bit-'] {
-    padding: 3px 0;
+    padding: 5px 0;
 }
 
 body {
@@ -29,6 +29,15 @@ h2 {
     padding: 2px 0;
 }
 
+a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        &:hover {
+            color: $color;
+        }
+    }
+
 strong {
     font-weight: 500;
 }
@@ -39,10 +48,6 @@ strong {
 
 .info {
     text-align: right;
-    & a {
-        text-decoration: none;
-        color: #000;
-    }
     ul {
         padding-top: 5px;
         list-style-type: none;
@@ -69,6 +74,7 @@ strong {
     text-align: center;
     font-size: 12px;
     margin-top: 15px;
+    line-height: 150%;
 }
 
 .bit-20 {
@@ -92,5 +98,25 @@ strong {
         & li:not(:last-child) {
             padding-bottom: 5px;
         }
+    }
+}
+
+.skills {
+    & li {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}
+
+.download {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9001;
+    font-size: 35px;
+    opacity: 0.3;
+    &:hover {
+            opacity: 1;
     }
 }
