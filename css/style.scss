@@ -8,6 +8,7 @@ $border-color:#111;
 $green:#27ae60;
 $yellow:#f1c40f;
 $red:#e74c3c;
+
 /* Styles */
 
 * {
@@ -24,9 +25,10 @@ html {
     color: $font-color;
     font-family: "Droid Sans Mono", monospace;
 }
-.window h1{
-    font-size:20px;
-    font-weight:500;
+
+.window h1 {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 a {
@@ -46,20 +48,23 @@ a {
     margin-top: 10vh;
     max-width: 500px;
 }
+
 @media (max-width: 600px) {
-  .container { 
-    margin-top:30px;; 
-  }
+    .container {
+        margin-top: 30px;
+        ;
+    }
 }
+
 .window {
     background: $window-color;
     border: 1px solid $border-color;
     border-radius: 5px;
     padding: 20px;
     padding-top: 40px;
-    padding-bottom: 20px;
     font-size: 20px;
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
+    position: relative;
     & header {
         border-radius: 4px 4px 0px 0px;
         position: absolute;
@@ -85,21 +90,21 @@ a {
     }
 }
 
-.window header ul li.close {
+.close {
     background-color: $red;
     &:hover {
         background-color: darken($red, 10%);
     }
 }
 
-.window header ul li.minimize {
+.minimize {
     background-color: $yellow;
     &:hover {
         background-color: darken($yellow, 10%);
     }
 }
 
-.window header ul li.maximize {
+.maximize {
     background-color: $green;
     &:hover {
         background-color: darken($green, 10%);
@@ -189,4 +194,16 @@ a {
 
 .contact {
     text-align: center;
+}
+
+a.resume {
+    font-size: 20px;
+    line-height: 100%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid $font-color;
+    font-weight: 500;
+    &:hover {
+        color: darken($font-color, 15%);
+        border-color: darken($font-color, 15%);
+    }
 }
