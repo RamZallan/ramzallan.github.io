@@ -1,0 +1,89 @@
+/* line 2, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+* {
+  transition: 0.3s all; }
+
+/* line 6, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+body {
+  margin-top: 30px;
+  background: #eee;
+  font-family: "Lato", sans-serif; }
+
+/* line 12, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+h1 {
+  font-size: 30px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  padding: 15px 0;
+  background: #3498db;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 20px; }
+
+@media (max-width: 500px) {
+  /* line 26, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+  h1 {
+    font-size: 20px; } }
+
+/* line 31, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+.list {
+  margin-bottom: 20px; }
+
+/* line 35, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+.chapters {
+  text-align: center; }
+  /* line 37, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+  .chapters a {
+    color: #3498db;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid #3498db; }
+    /* line 44, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+    .chapters a:hover {
+      background: #3498db;
+      color: white; }
+
+/* line 51, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+.left {
+  text-align: left; }
+
+/* line 55, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+.right {
+  text-align: right; }
+
+/* line 59, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+.sub {
+  margin-top: 1px; }
+
+@media (max-width: 600px) {
+  /* line 65, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+  .left,
+  .right {
+    text-align: center; } }
+
+/* line 71, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+.full {
+  margin-bottom: 20px;
+  text-align: center; }
+  /* line 74, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+  .full a {
+    color: #3498db;
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid #3498db; }
+    /* line 82, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+    .full a:hover {
+      background: #3498db;
+      color: white; }
+
+/* line 89, C:/Users/ram.zallan/Desktop/Textbook/css/styles.scss */
+.disabled {
+  cursor: not-allowed; }
+
+/*# sourceMappingURL=styles.css.map */
