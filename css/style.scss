@@ -200,7 +200,7 @@ a.resume {
     font-size: 20px;
     line-height: 100%;
     padding-bottom: 5px;
-    border-bottom: 2px solid $font-color;
+    border-bottom: 2px solid $font-color; 
     font-weight: 500;
     &:hover {
         color: darken($font-color, 15%);
