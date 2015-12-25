@@ -163,7 +163,7 @@ a {
     line-height: 75%;
     & p {
         font-size: 12px;
-        line-height: 150%;
+        line-height: 125%;
     }
     & a {
         border: none;
@@ -196,14 +196,18 @@ a {
     text-align: center;
 }
 
-a.resume {
-    font-size: 20px;
-    line-height: 100%;
-    padding-bottom: 5px;
-    border-bottom: 2px solid $font-color; 
-    font-weight: 500;
-    &:hover {
-        color: darken($font-color, 15%);
-        border-color: darken($font-color, 15%);
+.resume {
+    & a {
+         font-size: 20px;
+        line-height: 100%;
+        font-weight: 500;
+        &:hover {
+            color: darken($font-color, 15%);
+            border-color: darken($font-color, 15%);
+        }
+        
+    }
+    & i {
+        font-size: 15px;
     }
 }

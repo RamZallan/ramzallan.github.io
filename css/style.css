@@ -146,7 +146,7 @@ a {
   /* line 164, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
   .more p {
     font-size: 12px;
-    line-height: 150%; }
+    line-height: 125%; }
   /* line 168, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
   .more a {
     border: none;
@@ -177,16 +177,18 @@ a {
 .contact {
   text-align: center; }
 
-/* line 199, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
-a.resume {
+/* line 200, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+.resume a {
   font-size: 20px;
   line-height: 100%;
-  padding-bottom: 5px;
-  border-bottom: 2px solid #00ff00;
   font-weight: 500; }
-  /* line 205, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
-  a.resume:hover {
+  /* line 204, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  .resume a:hover {
     color: #00b300;
     border-color: #00b300; }
+
+/* line 210, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+.resume i {
+  font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */
