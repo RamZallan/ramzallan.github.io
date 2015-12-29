@@ -140,7 +140,7 @@ a {
 .more {
   margin-top: 20px;
   border-radius: 5px;
-  text-align: right;
+  text-align: left;
   padding: 10px;
   line-height: 75%; }
   /* line 164, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
@@ -155,39 +155,58 @@ a {
   .more i {
     font-size: 12px; }
 
-/* line 177, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
-.skills {
-  text-align: left; }
-  /* line 179, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
-  .skills li {
-    padding-bottom: 10px; }
+/* line 178, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+.skills li {
+  padding-bottom: 10px; }
 
 /* line 184, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
-.work {
-  text-align: right; }
+.work a {
+  font-weight: 900;
+  margin-right: 15px; }
 
 /* line 188, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+.work li {
+  list-style-type: none;
+  font-weight: 900;
+  font-size: 16px; }
+
+/* line 193, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+.work br + a {
+  font-size: 14px;
+  margin-left: 25px;
+  line-height: 150%; }
+
+/* line 198, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+.work p a {
+  margin-right: 0; }
+
+/* line 203, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
 .title {
   font-size: 20px;
   line-height: 100%;
   padding-bottom: 5px;
   border-bottom: 2px solid #00ff00; }
 
-/* line 195, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 210, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
 .contact {
   text-align: center; }
 
-/* line 200, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 216, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
 .resume a {
   font-size: 20px;
   line-height: 100%;
-  font-weight: 500; }
-  /* line 204, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  font-weight: 900;
+  margin-right: 15px; }
+  /* line 221, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
   .resume a:hover {
-    color: #00b300;
-    border-color: #00b300; }
+    color: #00b300; }
 
-/* line 210, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 226, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+.resume a,
+.resume a + i {
+  line-height: 175%; }
+
+/* line 229, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
 .resume i {
   font-size: 15px; }
 
