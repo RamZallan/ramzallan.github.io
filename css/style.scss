@@ -86,7 +86,6 @@ a {
         height: 12px;
         border-radius: 50%;
         display: inline-block;
-        cursor: pointer;
     }
 }
 
@@ -228,5 +227,29 @@ a {
     }
     & i {
         font-size: 15px;
+    }
+}
+
+.copy {
+    position: fixed;
+    bottom: -12px;
+    left: 10px;
+    width: 10px;
+    height: 15px;
+    line-height: 100%;
+    overflow: hidden;
+    word-wrap: none;
+    font-size: 14px;
+    opacity: 0.75;
+    z-index: 999;
+    &:hover {
+        width: 75vw;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    .copy {
+        position: relative;
     }
 }
