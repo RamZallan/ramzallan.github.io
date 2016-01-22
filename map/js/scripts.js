@@ -36,7 +36,7 @@ jQuery(document).ready(function () {
                 label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Montana</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
             }
             if (code == 'ne') {
-                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Nebrasks</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Nebraska</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
             }if (code == 'ak') {
                 label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Alaska</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
             }
