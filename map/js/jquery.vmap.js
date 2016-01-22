@@ -164,7 +164,7 @@
           map.highlight(code, containerPath);
         }
         if (params.showTooltip) {
-          map.label.text(mapData.pathes[code].name + "\nX Teams\n" + mapData.pathes[code].test); //SETS TOOLTIP
+          map.label.text(mapData.pathes[code].name + "\n" +mapData.pathes[code].teams+ " Teams"); //SETS TOOLTIP
           jQuery(params.container).trigger(labelShowEvent, [map.label, code]);
 
           if (!labelShowEvent.isDefaultPrevented()) {

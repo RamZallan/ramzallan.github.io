@@ -2,7 +2,7 @@ jQuery(document).ready(function () {
     var highlighted_states = { //Color-codes districts
         ga: '#e74c3c',
         nc: '#2ecc71',
-        michigan: '#34495e',
+        mi: '#34495e',
         in : '#7f8c8d',
         me: '#1D8251',
         vt: '#1D8251',
@@ -31,9 +31,9 @@ jQuery(document).ready(function () {
         hoverColor: '#2C9BD7',
         selectedColor: '#0A84C5',
         onLabelShow: function (event, label, code) {
-            if (code == 'ca') {
-                label.text("California\n3 Teams\n5 Regionals"); //New line = \n
-            }
+//            if (code == 'ca') {
+//                label.text("California\n3 Teams\n5 Regionals"); //New line = \n
+//            }
         },
         onRegionOver: function (event, code, region) {
        document.body.style.cursor = "pointer";
