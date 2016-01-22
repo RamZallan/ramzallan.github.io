@@ -12,12 +12,9 @@
 .jqvmap-label
 {
 	position: absolute;
-	display: none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	background: #222;
-	color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	background: #fff;
+	color: black;
 	font-family: "Roboto", sans-serif;
 	font-size: 12px;
     font-weight: 500;

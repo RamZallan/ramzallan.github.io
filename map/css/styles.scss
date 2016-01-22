@@ -9,7 +9,7 @@ $PNW:#f39c12;
 $michigan:#34495e;
 $newEngland:#1D8251;
 $midAtlantic:#F0BB42;
-$indiana:#7f8c8d;
+$indiana:#899399;
 
 /* Styles */
 
@@ -26,7 +26,7 @@ html {
 
 h1 {
     font-size: 60px;
-    font-weight: 100;
+    font-weight: 200;
     color: $blue;
     text-align: center;
 }
@@ -36,100 +36,65 @@ h1 {
 }
 
 #legend {
-    border-top: 2px solid $blue;
-    border-bottom: 2px solid $blue;
-    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     width: 60%;
     text-align: center;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 15px 5px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        transform: scale(1.02);
+    }
     & h2 {
         font-weight: 300;
         font-size: 24px;
-        line-height: 100%;
+        line-height: 75%;
+        color: $blue;
     }
     & .district {
         font-weight: 400;
     }
-    & #pnwSquare:before {
-        content: '';
-        height: 15px;
-        width: 15px;
+    & [id*="Square"] {
+        background: black;
+        padding: 2px 5px;
+        font-size: 14px;
+        display: inline-block;
+        white-space: nowrap;
+        margin: 2px 0;
+        color: white;
+        font-weight: 500;
+    }
+    & #pnwSquare {
         background: $PNW;
-        border-radius: 20%;
-        margin-right: 5px;
-        margin-left: 5px;
-        display: inline-block;
     }
-    & #michiganSquare:before {
-        content: '';
-        height: 15px;
-        width: 15px;
+    & #michiganSquare {
         background: $michigan;
-        border-radius: 20%;
-        margin-right: 5px;
-        margin-left: 5px;
-        display: inline-block;
     }
-    & #indianaSquare:before {
-        content: '';
-        height: 15px;
-        width: 15px;
+    & #indianaSquare {
         background: $indiana;
-        border-radius: 20%;
-        margin-right: 5px;
-        margin-left: 5px;
-        display: inline-block;
     }
-    & #georgiaSquare:before {
-        content: '';
-        height: 15px;
-        width: 15px;
+    & #georgiaSquare {
         background: $georgia;
-        border-radius: 20%;
-        margin-right: 5px;
-        margin-left: 5px;
-        display: inline-block;
     }
-    & #ncSquare:before {
-        content: '';
-        height: 15px;
-        width: 15px;
+    & #ncSquare {
         background: $northCarolina;
-        border-radius: 20%;
-        margin-right: 5px;
-        margin-left: 5px;
-        display: inline-block;
     }
-    & #chesapeakeSquare:before {
-        content: '';
-        height: 15px;
-        width: 15px;
+    & #chesapeakeSquare {
         background: $chesapeake;
-        border-radius: 20%;
-        margin-right: 5px;
-        margin-left: 5px;
-        display: inline-block;
     }
-    & #midAtlanticSquare:before {
-        content: '';
-        height: 15px;
-        width: 15px;
+    & #midAtlanticSquare {
         background: $midAtlantic;
-        border-radius: 20%;
-        margin-right: 5px;
-        margin-left: 5px;
-        display: inline-block;
     }
-    & #neSquare:before {
-        content: '';
-        height: 15px;
-        width: 15px;
+    & #neSquare {
         background: $newEngland;
-        border-radius: 20%;
-        margin-right: 5px;
-        margin-left: 5px;
-        display: inline-block;
+    }
+    & #noDistrictSquare {
+        background: $blue;
     }
 }
 
@@ -137,12 +102,14 @@ h1 {
     width: 75vw;
     height: 75vh;
     margin: 0 auto;
+    z-index: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     #map {
         width: 60vw;
         height: 60vh;
+        margin-top: 25px;
     }
 }
 
@@ -174,7 +141,7 @@ h1 {
     top: 50%;
     left: 50%;
     margin: -100px 0 0 -200px;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
     color: white;
     & .dialog {

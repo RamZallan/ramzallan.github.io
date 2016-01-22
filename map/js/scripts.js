@@ -3,7 +3,7 @@ jQuery(document).ready(function () {
         ga: '#e74c3c',
         nc: '#2ecc71',
         mi: '#34495e',
-        in : '#7f8c8d',
+        in : '#899399',
         me: '#1D8251',
         vt: '#1D8251',
         nh: '#1D8251',
@@ -29,11 +29,15 @@ jQuery(document).ready(function () {
         color: '#4eb0e3',
         colors: highlighted_states,
         hoverColor: '#2C9BD7',
-        selectedColor: '#0A84C5',
+        selectedColor: '#4eb0e3',
         onLabelShow: function (event, label, code) {
-//            if (code == 'ca') {
-//                label.text("California\n3 Teams\n5 Regionals"); //New line = \n
-//            }
+            /* Hardcoding labels for states with only 1 Team (vs. "X Teams") */
+            if (code == 'mt') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Montana</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
+            }
+            if (code == 'ne') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Nebrasks</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
+            }
         },
         onRegionOver: function (event, code, region) {
        document.body.style.cursor = "pointer";
@@ -43,3 +47,9 @@ jQuery(document).ready(function () {
         },
     });
 });
+
+/*
+
+map.label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>" + mapData.pathes[code].name + "</strong>" + "\n" + "<font style='font-weight: 900;'>" + mapData.pathes[code].teams + "</font>" + " Teams");
+
+*/
