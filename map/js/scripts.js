@@ -37,6 +37,8 @@ jQuery(document).ready(function () {
             }
             if (code == 'ne') {
                 label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Nebrasks</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
+            }if (code == 'ak') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Alaska</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
             }
         },
         onRegionOver: function (event, code, region) {
