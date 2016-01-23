@@ -30,22 +30,28 @@ jQuery(document).ready(function () {
         colors: highlighted_states,
         hoverColor: '#2C9BD7',
         selectedColor: '#4eb0e3',
-//        onLabelShow: function (event, label, code) {
-//            /* Hardcoding labels for states with only 1 Team (vs. "X Teams") */
-//            if (code == 'mt') {
-//                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Montana</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
-//            }
-//            if (code == 'ne') {
-//                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Nebraska</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
-//            }if (code == 'ak') {
-//                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Alaska</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
-//            }
-//        },
-        onRegionOver: function (event, code, region) {
-       document.body.style.cursor = "pointer";
+        onLabelShow: function (event, label, code) {
+            //            /* Hardcoding labels for states with only 1 Team (vs. "X Teams") */
+            //            if (code == 'mt') {
+            //                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Montana</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
+            //            }
+            //            if (code == 'ne') {
+            //                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Nebraska</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
+            //            }if (code == 'ak') {
+            //                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Alaska</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team"); 
+            //            }
+            if (code == 'pa') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Pennsylvania</strong>" + "\n" + "<font style='font-weight: 900;'>73</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>2</font>" + " Regionals" + "\n" + "<font style='font-weight: 900;'>4</font>" + " District Events");
+            }
+            if (code == 'mo') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Missouri</strong>" + "\n" + "<font style='font-weight: 900;'>70</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Regional" + "\n" + "<font style='font-weight: 900;'><em>FIRST®</em></font>" + " Championships");
+            }
         },
-    onRegionOut: function (element, code, region) {
-           document.body.style.cursor = "default";
+        onRegionOver: function (event, code, region) {
+            document.body.style.cursor = "pointer";
+        },
+        onRegionOut: function (element, code, region) {
+            document.body.style.cursor = "default";
         },
     });
 });
