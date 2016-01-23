@@ -9,7 +9,7 @@ $PNW:#f39c12;
 $michigan:#34495e;
 $newEngland:#1D8251;
 $midAtlantic:#F0BB42;
-$indiana:#fe8376;
+$indiana:#ffa299;
 
 /* Styles */
 
@@ -68,6 +68,9 @@ h1 {
         margin: 2px 0;
         color: white;
         font-weight: 500;
+        &:hover {
+            opacity: 0.7;
+        }
     }
     & #pnwSquare {
         background: $PNW;

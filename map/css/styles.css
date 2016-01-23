@@ -57,35 +57,38 @@ h1 {
     margin: 2px 0;
     color: white;
     font-weight: 500; }
-  /* line 72, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+    /* line 71, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+    #legend [id*="Square"]:hover {
+      opacity: 0.7; }
+  /* line 75, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #legend #pnwSquare {
     background: #f39c12; }
-  /* line 75, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 78, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #legend #michiganSquare {
     background: #34495e; }
-  /* line 78, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
-  #legend #indianaSquare {
-    background: #fe8376; }
   /* line 81, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  #legend #indianaSquare {
+    background: #ffa299; }
+  /* line 84, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #legend #georgiaSquare {
     background: #e74c3c; }
-  /* line 84, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 87, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #legend #ncSquare {
     background: #2ecc71; }
-  /* line 87, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 90, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #legend #chesapeakeSquare {
     background: #9b59b6; }
-  /* line 90, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 93, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #legend #midAtlanticSquare {
     background: #F0BB42; }
-  /* line 93, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 96, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #legend #neSquare {
     background: #1D8251; }
-  /* line 96, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 99, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #legend #noDistrictSquare {
     background: #4eb0e3; }
 
-/* line 101, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+/* line 104, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
 #map {
   width: 75vw;
   height: 75vh;
@@ -93,33 +96,33 @@ h1 {
   z-index: 0; }
 
 @media (min-width: 1000px) {
-  /* line 109, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 112, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #map {
     width: 60vw;
     height: 60vh;
     margin-top: 25px; } }
 
 @media (min-height: 700px) {
-  /* line 117, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 120, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #map {
     padding-top: 0; } }
 
-/* line 122, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+/* line 125, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
 .footer {
   text-align: center;
   margin-top: 10px;
   color: #222;
   font-weight: 500; }
-  /* line 127, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 130, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   .footer a {
     transition: 0.3s all;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-    /* line 131, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+    /* line 134, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
     .footer a:hover {
       color: #0e3e57; }
 
-/* line 137, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+/* line 140, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
 .popup {
   position: absolute;
   max-width: 400px;
@@ -130,7 +133,7 @@ h1 {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   color: white; }
-  /* line 147, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
+  /* line 150, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   .popup .dialog {
     padding: 10px; }
 
