@@ -102,7 +102,7 @@ h1 {
     height: 60vh;
     margin-top: 25px; } }
 
-@media (min-height: 700px) {
+@media (min-width: 700px) {
   /* line 120, C:/Users/ramz_000/Desktop/ramzallan.github.io/map/css/styles.scss */
   #map {
     padding-top: 0; } }
