@@ -622,8 +622,6 @@
 
         jQuery(this.container).trigger('regionSelect.jqvmap', [cc]);
         if (this.selectedColor && path) {
-          path.currentFillColor = this.selectedColor;
-          path.setFill(this.selectedColor);
         }
       }
     },

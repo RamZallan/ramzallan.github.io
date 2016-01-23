@@ -28,7 +28,7 @@ jQuery(document).ready(function () {
         borderWidth: 1,
         color: '#4eb0e3',
         colors: highlighted_states,
-        hoverColor: '#2C9BD7',
+        hoverOpacity: '0.7',
         selectedColor: '#4eb0e3',
         onLabelShow: function (event, label, code) {
             //            /* Hardcoding labels for states with only 1 Team (vs. "X Teams") */
