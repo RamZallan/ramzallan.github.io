@@ -41,6 +41,27 @@ jQuery(document).ready(function () {
             if (code == 'ak') {
                 label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Alaska</strong>" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Team" + "\n" + "<font style='font-weight: 900;'>0</font>" + " Regionals");
             }
+            if (code == 'id') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Idaho</strong>" + "\n" + "<font style='font-weight: 900;'>15</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Regional");
+            }
+            if (code == 'nv') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Nevada</strong>" + "\n" + "<font style='font-weight: 900;'>10</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Regional");
+            }
+            if (code == 'ut') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Utah</strong>" + "\n" + "<font style='font-weight: 900;'>21</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Regional");
+            }
+            if (code == 'wi') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Wisconsin</strong>" + "\n" + "<font style='font-weight: 900;'>48</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Regional");
+            }
+            if (code == 'al') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Alabama</strong>" + "\n" + "<font style='font-weight: 900;'>12</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Regional");
+            }
+            if (code == 'la') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Louisiana</strong>" + "\n" + "<font style='font-weight: 900;'>35</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Regional");
+            }
+            if (code == 'hi') {
+                label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Hawaii</strong>" + "\n" + "<font style='font-weight: 900;'>26</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Regional");
+            }
             if (code == 'pa') {
                 label.html("<strong style='font-size: 14px; font-weight: 900; color: #4eb0e3;'>Pennsylvania</strong>" + "\n" + "<font style='font-weight: 900;'>73</font>" + " Teams" + "\n" + "<font style='font-weight: 900;'>1</font>" + " Regional" + "\n" + "<font style='font-weight: 900;'>4</font>" + " District Events" + "\n" + "<font style='font-weight: 900;'>MAR</font>" + " District Championships");
             }
