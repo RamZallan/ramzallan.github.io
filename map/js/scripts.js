@@ -3,7 +3,7 @@ jQuery(document).ready(function () {
         ga: '#e74c3c',
         nc: '#2ecc71',
         mi: '#34495e',
-        in : '#899399',
+        in : '#fe8376',
         me: '#1D8251',
         vt: '#1D8251',
         nh: '#1D8251',
