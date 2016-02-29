@@ -180,19 +180,21 @@ a {
 }
 
 .work {
+    line-height: 1.5;
     a {
         font-weight: 900;
         margin-right: 15px;
+    line-height: 1.5;
     }
     li {
         list-style-type: none;
         font-weight: 900;
         font-size: 16px;
+        line-height: 1;
     }
     br + a {
         font-size: 14px;
         margin-left: 25px;
-        line-height: 150%;
     }
     p a {
         margin-right: 0;
