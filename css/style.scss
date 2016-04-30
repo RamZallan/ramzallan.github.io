@@ -195,6 +195,9 @@ a {
     br + a {
         font-size: 14px;
         margin-left: 25px;
+        &:first-of-type {
+            line-height: 2;
+        }
     }
     p a {
         margin-right: 0;
