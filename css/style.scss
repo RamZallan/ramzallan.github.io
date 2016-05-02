@@ -29,6 +29,11 @@ html {
 .window h1 {
     font-size: 20px;
     font-weight: 500;
+    & a {
+        border: none;
+        font-weight: bold;
+        line-height: 0;
+    }
 }
 
 a {
@@ -46,7 +51,7 @@ a {
 
 .container {
     margin-top: 10vh;
-    max-width: 500px;
+    max-width: 550px;
 }
 
 @media (max-width: 600px) {
