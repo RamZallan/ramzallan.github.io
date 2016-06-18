@@ -242,8 +242,16 @@ a {
     width: 75vw;
     opacity: 1; }
 
+/* line 266, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+#showMore {
+  text-align: center; }
+
+/* line 270, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+#hiddenWork {
+  display: none; }
+
 @media (max-width: 500px) {
-  /* line 267, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 275, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
   .copy {
     position: relative; } }
 
