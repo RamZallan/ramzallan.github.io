@@ -1,5 +1,5 @@
 $(".links a.skillLink").click(function () {
-    $(".more").toggleClass("invisible");
+    $(".more").slideToggle();
 });
 
 $(".links a.contactLink").click(function () {

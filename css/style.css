@@ -1,31 +1,23 @@
 /* Variables */
 /* Styles */
-/* line 14, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
-* {
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
-
-/* line 23, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 16, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 body,
 html {
   background: #222;
   color: #00ff00;
   font-family: "Droid Sans Mono", monospace; }
 
-/* line 29, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 22, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .window h1 {
   font-size: 20px;
   font-weight: 500; }
-  /* line 32, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 25, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .window h1 a {
     border: none;
     font-weight: bold;
     line-height: 0; }
 
-/* line 39, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 32, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 a {
   color: #00ff00;
   cursor: pointer;
@@ -33,22 +25,22 @@ a {
   border-bottom: 2px solid #00ff00;
   padding-bottom: 3px;
   line-height: 200%; }
-  /* line 46, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 39, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   a:hover {
     color: #00b300;
     border-color: #00b300; }
 
-/* line 52, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 45, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .container {
   margin-top: 10vh;
   max-width: 550px; }
 
 @media (max-width: 600px) {
-  /* line 58, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 51, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .container {
     margin-top: 30px; } }
 
-/* line 64, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 57, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .window {
   background: #282828;
   border: 1px solid #111;
@@ -58,7 +50,7 @@ a {
   font-size: 20px;
   box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
   position: relative; }
-  /* line 73, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 66, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .window header {
     border-radius: 4px 4px 0px 0px;
     position: absolute;
@@ -67,13 +59,13 @@ a {
     height: 32px;
     width: 100%;
     background-color: #333; }
-  /* line 82, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 75, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .window header ul {
     float: left;
     height: 32px;
     margin: 0 10px;
     padding-left: 5px; }
-  /* line 88, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 81, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .window header ul li {
     margin: 10px 1px;
     width: 12px;
@@ -81,37 +73,37 @@ a {
     border-radius: 50%;
     display: inline-block; }
 
-/* line 97, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 90, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .close {
   background-color: #e74c3c; }
-  /* line 99, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 92, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .close:hover {
     background-color: #d62c1a; }
 
-/* line 104, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 97, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .minimize {
   background-color: #f1c40f; }
-  /* line 106, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 99, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .minimize:hover {
     background-color: #c29d0b; }
 
-/* line 111, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 104, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .maximize {
   background-color: #27ae60; }
-  /* line 113, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 106, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .maximize:hover {
     background-color: #1e8449; }
 
-/* line 118, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 111, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .links {
   font-size: 16px;
   text-align: center; }
 
-/* line 123, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 116, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .active {
   border-top: 2px solid #00ff00; }
 
-/* line 127, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 120, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .cursor:after {
   content: "_";
   font-weight: 900;
@@ -130,101 +122,103 @@ a {
   100% {
     opacity: 0; } }
 
-/* line 152, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 145, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .invisible {
   visibility: hidden;
   opacity: 0; }
 
-/* line 157, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 150, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .visible {
   visibility: visible;
   opacity: 1; }
 
-/* line 162, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 155, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .more {
   margin-top: 20px;
   border-radius: 5px;
   text-align: left;
   padding: 10px;
-  line-height: 75%; }
-  /* line 168, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  line-height: 75%;
+  display: none; }
+  /* line 161, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .more p {
     font-size: 12px;
     line-height: 125%; }
-  /* line 172, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 165, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .more a {
     border: none;
     font-weight: 900; }
-  /* line 176, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 169, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .more i {
     font-size: 12px; }
 
-/* line 182, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 176, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .skills li {
   padding-bottom: 10px; }
 
-/* line 187, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 181, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .work {
   line-height: 1.5; }
-  /* line 189, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 183, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .work a {
     font-weight: 900;
     margin-right: 15px;
     line-height: 1.2; }
-  /* line 194, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 188, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .work li {
     list-style-type: none;
     font-weight: 900;
     font-size: 16px;
     line-height: 100%; }
-  /* line 200, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 194, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .work br + a {
     font-size: 14px;
     margin-left: 25px; }
-    /* line 203, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+    /* line 197, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
     .work br + a:first-of-type {
       line-height: 2; }
-  /* line 207, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 201, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .work p a {
     margin-right: 0; }
-  /* line 210, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 204, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .work br {
     line-height: 2; }
-  /* line 213, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 207, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .work strong {
     font-style: italic; }
 
-/* line 218, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 212, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .title {
   font-size: 20px;
   line-height: 100%;
   padding-bottom: 5px;
   border-bottom: 2px solid #00ff00; }
 
-/* line 225, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 219, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .contact {
-  text-align: center; }
+  text-align: center;
+  transition: 0.4s all; }
 
-/* line 230, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 225, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .resume a {
   font-size: 20px;
   line-height: 100%;
   font-weight: 900;
   margin-right: 15px; }
-  /* line 235, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 230, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .resume a:hover {
     color: #00b300; }
 
-/* line 240, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 235, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .resume a,
 .resume a + i {
   line-height: 175%; }
 
-/* line 243, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 238, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .resume i {
   font-size: 15px; }
 
-/* line 248, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 243, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .copy {
   position: fixed;
   bottom: -12px;
@@ -237,21 +231,21 @@ a {
   font-size: 14px;
   opacity: 0.75;
   z-index: 999; }
-  /* line 260, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 255, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .copy:hover {
     width: 75vw;
     opacity: 1; }
 
-/* line 266, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 261, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 #showMore {
   text-align: center; }
 
-/* line 270, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+/* line 265, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 #hiddenWork {
   display: none; }
 
 @media (max-width: 500px) {
-  /* line 275, C:/Users/ramz_000/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 270, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .copy {
     position: relative; } }
 
