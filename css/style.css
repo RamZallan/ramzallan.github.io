@@ -186,29 +186,30 @@ a {
 
 /* line 209, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .contact {
+  opacity: 0;
   text-align: center;
-  transition: 0.4s all; }
+  transition: opacity 0.4s; }
 
-/* line 215, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
+/* line 216, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .resume a {
   font-size: 20px;
   line-height: 100%;
   font-weight: 900;
   margin-right: 15px; }
-  /* line 220, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 221, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .resume a:hover {
     color: #00b300; }
 
-/* line 225, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
+/* line 226, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .resume a,
 .resume a + i {
   line-height: 175%; }
 
-/* line 228, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
+/* line 229, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .resume i {
   font-size: 15px; }
 
-/* line 233, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
+/* line 234, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 .copy {
   position: fixed;
   bottom: -12px;
@@ -221,21 +222,21 @@ a {
   font-size: 14px;
   opacity: 0.75;
   z-index: 999; }
-  /* line 245, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 246, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .copy:hover {
     width: 75vw;
     opacity: 1; }
 
-/* line 251, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
+/* line 252, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 #showMore {
   text-align: center; }
 
-/* line 255, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
+/* line 256, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
 #hiddenWork {
   display: none; }
 
 @media (max-width: 500px) {
-  /* line 260, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
+  /* line 261, C:/Users/Ram/Desktop/ramzallan.github.io/css/style.scss */
   .copy {
     position: relative; } }
 

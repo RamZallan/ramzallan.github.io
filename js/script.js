@@ -3,7 +3,12 @@ $(".links a.skillLink").click(function () {
 });
 
 $(".links a.contactLink").click(function () {
-    $(".contact").toggleClass("invisible");
+    if($(".contact").css("opacity") == 0) {
+        $(".contact").css("opacity", "1");
+    }
+    else {
+        $(".contact").css("opacity", "0");
+    }
 });
 
 $("#showMore").click(function (e) {

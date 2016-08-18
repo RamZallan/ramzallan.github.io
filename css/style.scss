@@ -207,8 +207,9 @@ a {
 }
 
 .contact {
+    opacity: 0;
     text-align: center;
-    transition: 0.4s all;
+    transition: opacity 0.4s;
 }
 
 .resume {
