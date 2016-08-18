@@ -14,5 +14,5 @@ $(".links a.contactLink").click(function () {
 $("#showMore").click(function (e) {
     e.preventDefault();
     $(this).hide();
-    $("#hiddenWork").show(300);
+    $("#hiddenWork").slideToggle();
 });
