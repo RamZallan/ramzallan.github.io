@@ -6,14 +6,6 @@ html {
   color: #00ff00;
   font-family: "Droid Sans Mono", monospace; }
 
-.window h1 {
-  font-size: 20px;
-  font-weight: 500; }
-  .window h1 a {
-    border: none;
-    font-weight: bold;
-    line-height: 0; }
-
 a {
   color: #00ff00;
   cursor: pointer;
@@ -37,8 +29,8 @@ a {
   background: #282828;
   border: 1px solid #111;
   border-radius: 5px;
-  padding: 20px;
-  padding-top: 40px;
+  padding: 40px 20px 20px 20px;
+  margin-bottom: 20px;
   font-size: 20px;
   box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
   position: relative; }
@@ -47,7 +39,6 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    height: 32px;
     width: 100%;
     background-color: #333; }
   .window header ul {
@@ -61,6 +52,13 @@ a {
     height: 12px;
     border-radius: 50%;
     display: inline-block; }
+  .window h1 {
+    font-size: 20px;
+    font-weight: 500; }
+    .window h1 a {
+      border: none;
+      font-weight: bold;
+      line-height: 0; }
 
 .close {
   background-color: #e74c3c; }
@@ -80,9 +78,6 @@ a {
 .links {
   font-size: 16px;
   text-align: center; }
-
-.active {
-  border-top: 2px solid #00ff00; }
 
 .cursor:after {
   content: "_";
@@ -152,7 +147,10 @@ a {
 .contact {
   opacity: 0;
   text-align: center;
-  transition: opacity 0.4s; }
+  transition: opacity 0.4s;
+  line-height: 1.2; }
+  .contact a {
+    line-height: 3; }
 
 .resume a,
 .github a {
@@ -167,6 +165,12 @@ a {
 .resume i,
 .github i {
   font-size: 15px; }
+
+#showMore {
+  text-align: center; }
+
+#hiddenWork {
+  display: none; }
 
 .copy {
   position: fixed;
@@ -183,12 +187,6 @@ a {
   .copy:hover {
     width: 75vw;
     opacity: 1; }
-
-#showMore {
-  text-align: center; }
-
-#hiddenWork {
-  display: none; }
 
 @media (max-width: 500px) {
   .copy {
