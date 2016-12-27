@@ -1,16 +1,14 @@
 /* Variables */
-
-$background-color:#222;
-$window-color:#282828;
-$header-color:#333;
-$font-color:#00ff00;
-$border-color:#111;
-$green:#27ae60;
-$yellow:#f1c40f;
-$red:#e74c3c;
+$background-color: #222;
+$window-color: #282828;
+$header-color: #333;
+$font-color: #00ff00;
+$border-color: #111;
+$green: #27ae60;
+$yellow: #f1c40f;
+$red: #e74c3c;
 
 /* Styles */
-
 body,
 html {
     background: $background-color;
@@ -25,6 +23,7 @@ a {
     border-bottom: 2px solid $font-color;
     padding-bottom: 3px;
     line-height: 200%;
+
     &:hover {
         color: darken($font-color, 15%);
         border-color: darken($font-color, 15%);
@@ -35,7 +34,6 @@ a {
     margin-top: 10vh;
     max-width: 550px;
 }
-
 @media (max-width: 600px) {
     .container {
         margin-top: 30px;
@@ -46,25 +44,28 @@ a {
     background: $window-color;
     border: 1px solid $border-color;
     border-radius: 5px;
-    padding: 40px 20px 20px 20px;
+    padding: 40px 20px 20px;
     margin-bottom: 20px;
     font-size: 20px;
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
     position: relative;
+
     & header {
-        border-radius: 4px 4px 0px 0px;
+        border-radius: 4px 4px 0 0;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         background-color: $header-color;
     }
+
     & header ul {
         float: left;
         height: 32px;
         margin: 0 10px;
         padding-left: 5px;
     }
+
     & header ul li {
         margin: 10px 1px;
         width: 12px;
@@ -72,9 +73,11 @@ a {
         border-radius: 50%;
         display: inline-block;
     }
+
     & h1 {
         font-size: 20px;
         font-weight: 500;
+
         & a {
             border: none;
             font-weight: bold;
@@ -85,6 +88,7 @@ a {
 
 .close {
     background-color: $red;
+
     &:hover {
         background-color: darken($red, 10%);
     }
@@ -92,6 +96,7 @@ a {
 
 .minimize {
     background-color: $yellow;
+
     &:hover {
         background-color: darken($yellow, 10%);
     }
@@ -99,6 +104,7 @@ a {
 
 .maximize {
     background-color: $green;
+
     &:hover {
         background-color: darken($green, 10%);
     }
@@ -115,20 +121,23 @@ a {
     opacity: 0;
     animation: cursor 1s infinite;
 }
-
 @keyframes cursor {
     0% {
         opacity: 0;
     }
+
     40% {
         opacity: 0;
     }
+
     50% {
         opacity: 1;
     }
+
     90% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
@@ -140,17 +149,21 @@ a {
     text-align: left;
     padding: 10px;
     line-height: 75%;
+
     & p {
         font-size: 12px;
         line-height: 125%;
     }
+
     & a {
         border: none;
         font-weight: 900;
+
         & i {
             margin-left: 10px;
         }
     }
+
     & i {
         font-size: 12px;
     }
@@ -165,25 +178,30 @@ a {
 
 .work {
     line-height: 1.5;
+
     a {
         font-weight: 900;
         margin-right: 15px;
         line-height: 1.2;
     }
+
     li {
         list-style-type: none;
         font-weight: 900;
         font-size: 16px;
         line-height: 100%;
     }
+
     br + a {
         font-size: 14px;
         margin-left: 25px;
         line-height: 2;
     }
+
     p a {
         margin: 0;
     }
+
     strong {
         font-style: italic;
     }
@@ -201,22 +219,25 @@ a {
     text-align: center;
     transition: opacity 0.4s;
     line-height: 1.2;
+
     & a {
         line-height: 3;
     }
 }
 
-.resume,
-.github {
+.github,
+.resume {
     & a {
         font-size: 20px;
         line-height: 1;
         font-weight: 900;
         margin-right: 15px;
+
         &:hover {
             color: darken($font-color, 15%);
         }
     }
+
     & i {
         font-size: 15px;
     }
@@ -242,12 +263,12 @@ a {
     font-size: 14px;
     opacity: 0.75;
     z-index: 999;
+
     &:hover {
         width: 75vw;
         opacity: 1;
     }
 }
-
 @media (max-width: 500px) {
     .copy {
         position: relative;

@@ -29,13 +29,13 @@ a {
   background: #282828;
   border: 1px solid #111;
   border-radius: 5px;
-  padding: 40px 20px 20px 20px;
+  padding: 40px 20px 20px;
   margin-bottom: 20px;
   font-size: 20px;
   box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
   position: relative; }
   .window header {
-    border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -152,18 +152,18 @@ a {
   .contact a {
     line-height: 3; }
 
-.resume a,
-.github a {
+.github a,
+.resume a {
   font-size: 20px;
   line-height: 1;
   font-weight: 900;
   margin-right: 15px; }
-  .resume a:hover,
-  .github a:hover {
+  .github a:hover,
+  .resume a:hover {
     color: #00b300; }
 
-.resume i,
-.github i {
+.github i,
+.resume i {
   font-size: 15px; }
 
 #showMore {
