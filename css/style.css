@@ -115,6 +115,8 @@ a {
   .more a {
     border: none;
     font-weight: 900; }
+    .more a i {
+      margin-left: 10px; }
   .more i {
     font-size: 12px; }
 
@@ -152,19 +154,18 @@ a {
   text-align: center;
   transition: opacity 0.4s; }
 
-.resume a {
+.resume a,
+.github a {
   font-size: 20px;
-  line-height: 100%;
+  line-height: 1;
   font-weight: 900;
   margin-right: 15px; }
-  .resume a:hover {
+  .resume a:hover,
+  .github a:hover {
     color: #00b300; }
 
-.resume a,
-.resume a + i {
-  line-height: 175%; }
-
-.resume i {
+.resume i,
+.github i {
   font-size: 15px; }
 
 .copy {

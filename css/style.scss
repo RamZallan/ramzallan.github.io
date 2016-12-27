@@ -155,6 +155,9 @@ a {
     & a {
         border: none;
         font-weight: 900;
+        & i {
+            margin-left: 10px;
+        }
     }
     & i {
         font-size: 12px;
@@ -207,19 +210,16 @@ a {
     transition: opacity 0.4s;
 }
 
-.resume {
+.resume,
+.github {
     & a {
         font-size: 20px;
-        line-height: 100%;
+        line-height: 1;
         font-weight: 900;
         margin-right: 15px;
         &:hover {
             color: darken($font-color, 15%);
         }
-    }
-    & a,
-    & a + i {
-        line-height: 175%;
     }
     & i {
         font-size: 15px;
