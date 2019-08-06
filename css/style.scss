@@ -1,14 +1,22 @@
 /* Variables */
-$background-color: #222;
-$window-color: #282828;
-$header-color: #333;
-$font-color: #00ff00;
+$background-color: #212121;
+$window-color: #263238;
+$header-color: #CCCCCC;
+$font-color: #CFD8DC;
+$highlight-color: #03A9F4;
+$prompt-color: #81D4FA;
+$about-color: #CFD8DC;
+$muted-color: #607D8B;
 $border-color: #111;
 $green: #27ae60;
-$yellow: #f1c40f;
+$yellow: #E2A700;
 $red: #e74c3c;
 
 /* Styles */
+* {
+  box-sizing: border-box;;
+}
+
 body,
 html {
     background: $background-color;
@@ -18,15 +26,17 @@ html {
 
 a {
     color: $font-color;
-    cursor: pointer;
     text-decoration: none;
-    border-bottom: 2px solid $font-color;
-    padding-bottom: 3px;
-    line-height: 200%;
 
     &:hover {
-        color: darken($font-color, 15%);
-        border-color: darken($font-color, 15%);
+        color: darken($font-color, 10%);
+    }
+
+    &.blue {
+        color: $highlight-color;
+        &:hover {
+          color: darken($highlight-color, 10%);
+        }
     }
 }
 
@@ -42,13 +52,13 @@ a {
 
 .window {
     background: $window-color;
-    border: 1px solid $border-color;
     border-radius: 5px;
     padding: 40px 20px 20px;
     margin-bottom: 20px;
     font-size: 20px;
-    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
     position: relative;
+    line-height: 200%;
 
     & header {
         border-radius: 4px 4px 0 0;
@@ -56,18 +66,16 @@ a {
         top: 0;
         left: 0;
         width: 100%;
-        background-color: $header-color;
+        background: linear-gradient(rgb(230, 229, 230), rgb(204, 203, 204))
     }
 
     & header ul {
         float: left;
-        height: 32px;
+        height: 24px;
         margin: 0 10px;
-        padding-left: 5px;
     }
 
     & header ul li {
-        margin: 10px 1px;
         width: 12px;
         height: 12px;
         border-radius: 50%;
@@ -87,11 +95,26 @@ a {
 
     & #prompt {
         margin-bottom: 20px;
+        color: $muted-color;
+        & strong {
+          color: $prompt-color;
+        }
+    }
+
+    .text {
+      color: $about-color;
+      & a {
+          color: $about-color;
+          &:hover {
+              color: darken($about-color, 10%);
+          }
+      }
     }
 }
 
 .close {
     background-color: $red;
+    border: 1px solid darken($red, 5%);
 
     &:hover {
         background-color: darken($red, 10%);
@@ -100,6 +123,7 @@ a {
 
 .minimize {
     background-color: $yellow;
+    border: 1px solid darken($yellow, 5%);
 
     &:hover {
         background-color: darken($yellow, 10%);
@@ -108,6 +132,7 @@ a {
 
 .maximize {
     background-color: $green;
+    border: 1px solid darken($green, 5%);
 
     &:hover {
         background-color: darken($green, 10%);
@@ -189,7 +214,6 @@ a {
     a {
         font-weight: 900;
         margin-right: 15px;
-        line-height: 1.2;
     }
 
     li {
@@ -197,6 +221,9 @@ a {
         font-weight: 900;
         font-size: 16px;
         line-height: 100%;
+        & a {
+            color: $highlight-color;
+        }
     }
 
     br + a {
@@ -239,10 +266,6 @@ a {
         line-height: 1;
         font-weight: 900;
         margin-right: 15px;
-
-        &:hover {
-            color: darken($font-color, 15%);
-        }
     }
 
     & i {
@@ -256,6 +279,7 @@ a {
 
 #hiddenWork {
     display: none;
+    margin-top: 20px;
 }
 
 .copy {
