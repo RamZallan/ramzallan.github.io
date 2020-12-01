@@ -24,14 +24,11 @@ main {
     width: 80%;
     max-width: 600px;
     margin: 0 auto;
+    padding-bottom: 4em;
 }
 
 @media only screen and (max-width: 750px) {
     /* mobile-ish bottom margin */
-    body {
-        margin-bottom: 4em;
-    }
-
     main {
         max-width: none;
     }
@@ -108,4 +105,8 @@ li p {
 
 #projects-header {
     margin-top: 4em;
+}
+
+.non-breaking-period {
+    display: inline-block;
 }
