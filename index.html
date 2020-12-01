@@ -1,80 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
-    <title>Ram Zallan</title>
-    <meta name="description" content="I'm a Full Stack Software Engineer and Student from Los Angeles, attending RIT.">
-    <meta name="author" content="Ram Zallan">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#222222">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="utf-8" />
+    <title>hey, i'm ram zallan.</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png" />
+    <link rel="manifest" href="favicons/site.webmanifest" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="column twelve contact invisible">
-                <div class="row">
-                    <p>I'm available for freelance work as well as as full-time software engineering opportunities.
-                        <br>Email me at <a class="blue" href="mailto:ram@ramzallan.me">ram@ramzallan.me</a>.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="twelve columns window">
-                <header>
-                    <ul>
-                        <li class="close"></li>
-                        <li class="minimize"></li>
-                        <li class="maximize"></li>
-                    </ul>
-                </header>
-                <h1 class="text">
-                    <div id="prompt"><strong>[ramzallan@site ~]$</strong> whoami</div>
-                    I'm a Full Stack Software Engineer and Student from Los Angeles,
-                    attending <a href="https://rit.edu/" title="Rochester Institute of Technology" target="_blank">RIT</a><span class="cursor"></span>
-                </h1>
-                <div class="links">
-                    <a href="#" class="skillLink blue">Skills and Portfolio</a>
-                    <br>
-                    <a href="#" class="contactLink blue">Hire/Contact Me</a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="twelve columns more">
-                <div class="row">
-                    <div class="column one-half skills">
-                        <p><span class="title">My Skills</span>
-                        </p>
-                        <ul>
-                            <li>Python, Java, C</li>
-                            <li>JavaScript, TypeScript, HTML, CSS</li>
-                            <li>Flask, React, Node.js, Spring</li>
-                            <li>SQL, GraphQL, Yarn, Git, Linux</li>
-                        </ul>
-                        <p class="resume"><a class="blue" href="http://resume.ramzallan.me">My Résumé</a></p>
-                        <p class="github"><a class="blue" href="http://github.com/ramzallan">My GitHub</a></p>
-                    </div>
-                    <div class="column one-half work">
-                        <p><span class="title">My Work</span>
-                        </p>
-                        <ul>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <p class="copy">&copy; 2019 Ram Zallan</p>
-    <script src="js/script.js" type="text/javascript"></script>
+    <main>
+        <h1>hey, i'm <span class="accent">ram zallan</span>.</h1>
+        <h2>
+            i just graduated from RIT with a b.s. in computer science, and i
+            do web development.
+        </h2>
+
+        <h2>
+            i'm currently looking for a full-time role. email me at
+            <a href="mailto:ram@ramzallan.me">ram@ramzallan.me</a>, and
+            check out my resume
+            <a href="https://resume.ramzallan.me" title="Download link for Ram Zallan's resume">here</a>.
+        </h2>
+
+        <h3 id="projects-header">these are some of my projects:</h3>
+        <ul id="projects">
+            <li>
+                <a href="https://github.com/ramzallan/tonic/" target="_blank">Tonic</a>
+                <p>
+                    single page web frontend for networked vending machines
+                </p>
+            </li>
+
+            <li>
+                <a href="https://github.com/ramzallan/resume-review/" target="_blank">Resume Review</a>
+                <p>
+                    web app written for students to upload their resumes and
+                    receive feedback on them
+                </p>
+            </li>
+
+            <li>
+                <a href="https://github.com/computersciencehouse/gallery/" target="_blank">Gallery</a>
+                <p>custom, extensible multi-media web gallery</p>
+            </li>
+
+            <li>
+                <a href="https://github.com/ramzallan/csh-map/" target="_blank">CSH Map</a>
+                <p>
+                    interactive, auto-updating dorm floor map showing the
+                    occupants of each room for a club
+                </p>
+            </li>
+        </ul>
+    </main>
 </body>
 
 </html>
