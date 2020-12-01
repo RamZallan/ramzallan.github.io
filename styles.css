@@ -20,17 +20,21 @@ body {
     padding: 0;
 }
 
+main {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 750px) {
     /* mobile-ish bottom margin */
     body {
         margin-bottom: 4em;
     }
-}
 
-main {
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto;
+    main {
+        max-width: none;
+    }
 }
 
 h1,
