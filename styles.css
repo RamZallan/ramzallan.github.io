@@ -1,5 +1,5 @@
 :root {
-    --background: #eeeeee;
+    --background: #fff6f5;
     --accent: #fc8079;
     --accent-transparent: rgba(252, 128, 121, 50%);
     --text: #151620;
@@ -22,7 +22,7 @@ body {
 
 main {
     width: 80%;
-    max-width: 600px;
+    max-width: 460px;
     margin: 0 auto;
     padding-bottom: 4em;
 }
